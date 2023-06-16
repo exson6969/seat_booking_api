@@ -1,0 +1,18 @@
+{
+  "tableName": "table",
+  "csvFilePath": "./test_data/data.csv",
+  "columns": [
+    {
+      "name": "id",
+      "datatype": "INT",
+      "primaryKey": true,
+      "notNull": true
+    },
+    {
+      "name": "Name",
+      "datatype": "VARCHAR(25)",
+      "primaryKey": false,
+      "notNull": true
+    }
+  ]
+}

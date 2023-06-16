@@ -1,0 +1,24 @@
+{
+  "tableName": "seats",
+  "csvFilePath": "../data/Seats.csv",
+  "columns": [
+    {
+      "name": "id",
+      "datatype": "INT",
+      "primaryKey": true,
+      "notNull": true
+    },
+    {
+      "name": "seat_identifier",
+      "datatype": "VARCHAR(30)",
+      "primaryKey": false,
+      "notNull": true
+    },
+    {
+      "name": "seat_class",
+      "datatype": "VARCHAR(10)",
+      "primaryKey": false,
+      "notNull": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "tableName": "seat_pricing",
+  "csvFilePath": "../data/SeatPricing.csv",
+  "columns": [
+    {
+      "name": "id",
+      "datatype": "INT",
+      "primaryKey": true,
+      "notNull": true
+    },
+    {
+      "name": "seat_class",
+      "datatype": "CHAR(1)",
+      "primaryKey": false,
+      "notNull": true
+    },
+    {
+      "name": "min_price",
+      "datatype": "VARCHAR(10)",
+      "primaryKey": false,
+      "notNull": false
+    },{
+      "name": "normal_price",
+      "datatype": "VARCHAR(10)",
+      "primaryKey": false,
+      "notNull": true
+    },{
+      "name": "max_price",
+      "datatype": "VARCHAR(10)",
+      "primaryKey": false,
+      "notNull": false
+    }
+  ]
+}
