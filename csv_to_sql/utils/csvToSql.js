@@ -66,7 +66,6 @@ function DataQuery(tableName, columns, row) {
     const value = row[column.name];
     return value;
   });
-
   return `INSERT INTO ${tableName} (${columnNames}) VALUES (${placeholders})`;
 }
 

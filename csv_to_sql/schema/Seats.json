@@ -10,7 +10,7 @@
     },
     {
       "name": "seat_identifier",
-      "datatype": "VARCHAR(30)",
+      "datatype": "LONGTEXT",
       "primaryKey": false,
       "notNull": true
     },
