@@ -7,6 +7,8 @@ const app = express();
 app.use(express.json());
 
 // Routes
+app.use('/seats',)
+app.use('/booking',)
 
 // Start the server
 app.listen(3000, () => {
