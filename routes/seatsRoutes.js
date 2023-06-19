@@ -1,7 +1,9 @@
 const express = require('express');
-const seatsController = require('../controllers/seatsController')
+const seatController = require('../controllers/seatsController');
 
 const router = express.Router();
 
-router.get('/',)
-router.get('/id',)
+router.get('/', seatController.getAllSeats);
+router.get('/id', seatController.getSeatPricing);
+
+module.exports = router;
